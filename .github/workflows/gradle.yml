@@ -8,12 +8,12 @@ permissions:
   contents: read
 
 env:
-  S3_BUCKET_NAME: be-98-injongjeon
+  S3_BUCKET_NAME: be-98-jnjongjeon
 
 jobs:
   build:
 
-    runs-on: Ubuntu-18.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
