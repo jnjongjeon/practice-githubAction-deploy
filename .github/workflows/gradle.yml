@@ -13,7 +13,7 @@ env:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu 18.04 LTS
 
     steps:
       - uses: actions/checkout@v3
