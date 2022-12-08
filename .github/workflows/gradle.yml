@@ -9,7 +9,7 @@ permissions:
 
 
 env:
-  S3_BUCKET_NAME: be-98-injongjeon
+  S3_BUCKET_NAME: githubAction-deploy-bucket
 
 jobs:
   build:
